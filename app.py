@@ -9,7 +9,7 @@ import google.generativeai as genai
 
 # Configure Google API key
 load_dotenv()
-genai.configure(api_key=os.getenv('google_API'))
+genai.configure(api_key='AIzaSyCuX-m1h1vDqc09jHptsoOnptmUpYg49us')
 
 def get_gemini_response(input_text, pdf_content, prompt):
     model = genai.GenerativeModel('gemini-pro-vision')
