@@ -43,7 +43,7 @@ def input_pdf_setup(uploaded_file):
 st.set_page_config(page_title='ATS Resume Expert')
 
 # Display header
-st.header('Applicant Tracking System @1marufbillah')
+st.header('Applicant Tracking System')
 
 input_text = st.text_area('Job Description: ', key='input')
 uploaded_file = st.file_uploader('Upload your resume (PDF)...', type=['pdf'])
